@@ -20,7 +20,6 @@ header {
 .title {
     display: block;
     font-size: 1.5rem;
-    font-weight: 600px;
 }
 
 .hide {
@@ -38,10 +37,6 @@ main {
 
 h1 {
 	text-align: center;
-}
-
-nav {
-    align-items: left;
 }
 
 nav a {
@@ -98,7 +93,7 @@ footer {
 	background: none;
 	color: #000;
 	position: absolute;
-    top: 1.6rem;
+    top: .85rem;
 	right: 1rem;
 }
 
@@ -125,8 +120,11 @@ footer {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+    align-items: center;
+	padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
 }
-
 
 .navigation a:hover {
 	background-color: rgb(56, 69, 97);
