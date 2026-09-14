@@ -41,6 +41,10 @@ h1 {
     font-weight: bold;
 }
 
+nav {
+    display: flex;
+}
+
 nav a {
 	color: #fff;
 	text-align: center;
