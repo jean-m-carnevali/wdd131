@@ -4,8 +4,8 @@
     --margin: 0;
     --white: #fff;
     --red: #a80e20;
-    --yellow: #fcd116;
-    --blue: #003893;
+    --yellow: #fcd115;
+    --blue: #023992;
 
     --card-background: rgb(255 255 255 / 30%);
     --shadow: 0 0 12px rgb(0 0 0 / 30%);
@@ -52,7 +52,7 @@ h1 {
 .data {
     padding: 1.5rem;
     text-align: center;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .data h2 {
