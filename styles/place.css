@@ -8,8 +8,8 @@
     --blue: #023992;
     --divider: #ebebeb;
 
-    --card-background: rgb(255 255 255 / 30%);
-    --shadow: 0 0 12px rgb(0 0 0 / 30%);
+    --card-background: #ffffff4d;
+    --shadow: 0 0 12px #0000004d;
 }
 
 * {
