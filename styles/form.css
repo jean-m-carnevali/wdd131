@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    color: #143357;
+}
+
+header {
+    background-color: #0b214b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+main {
+    max-width: 650px;
+    margin: 2rem auto;
+}
+
+form {
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+form label, form p {
+    display: block;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+select, input[type="date"], input[type="text"], textarea {
+    width: 100%;
+    padding: .8rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 1rem;
+    transform: scale(1.8);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    background-color: #0b214b;
+    color: #fff;
+    border-radius: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4da7;
+}
+
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+.optional {
+    color: #1900ff;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.stars > label {
+    color: gold;
+    width: 90px;
+    height: 90px;
+    font-size: 3.5rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    caret-color: #fff;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.stars > label:hover {
+    color: #e09d0b;
+}
+
+.stars > label::before {
+    content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+    content: "\2605";
+}
+
+.confirmation {
+    max-width: 650px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0b214b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#lastModified {
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        margin: 1rem auto;
+    }
+    
+    .stars {
+        gap: 0.2rem
+    }
+
+    .stars > label {
+        width: 90px;
+        height: 90px;
+        font-size: 3.5rem;
+    }
+}
